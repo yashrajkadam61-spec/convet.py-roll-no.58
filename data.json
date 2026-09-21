@@ -1,0 +1,30 @@
+[
+    {
+        "import csv": "import json"
+    },
+    {
+        "import csv": "with open(\"data.csv\"",
+        "null": [
+            " \"r\") as csv_file:"
+        ]
+    },
+    {
+        "import csv": "    data = list(csv.DictReader(csv_file))"
+    },
+    {
+        "import csv": "with open(\"data.json\"",
+        "null": [
+            " \"w\") as json_file:"
+        ]
+    },
+    {
+        "import csv": "    json.dump(data",
+        "null": [
+            " json_file",
+            " indent=4)"
+        ]
+    },
+    {
+        "import csv": "print(\"CSV data converted to JSON successfully.\")"
+    }
+]
